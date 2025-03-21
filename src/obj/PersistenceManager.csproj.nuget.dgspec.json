@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kalle/Dokumente/git/cs2-persistence-manager/src/PersistenceManager.csproj": {}
+  },
+  "projects": {
+    "/home/kalle/Dokumente/git/cs2-persistence-manager/src/PersistenceManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kalle/Dokumente/git/cs2-persistence-manager/src/PersistenceManager.csproj",
+        "projectName": "PersistenceManager",
+        "projectPath": "/home/kalle/Dokumente/git/cs2-persistence-manager/src/PersistenceManager.csproj",
+        "packagesPath": "/home/kalle/.nuget/packages/",
+        "outputPath": "/home/kalle/Dokumente/git/cs2-persistence-manager/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kalle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CounterStrikeSharp.API": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
