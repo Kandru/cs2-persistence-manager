@@ -1,3 +1,6 @@
+> [!CAUTION]
+> Work in progress - DOES NOT WORK ON YOUR SERVER.
+
 # CounterstrikeSharp - PersistenceManager
 
 [![UpdateManager Compatible](https://img.shields.io/badge/CS2-UpdateManager-darkgreen)](https://github.com/Kandru/cs2-update-manager/)
@@ -11,7 +14,7 @@ The persistence manager gives persistence on player settings, map settings and a
 ## Installation
 
 1. Download and extract the latest release from the [GitHub releases page](https://github.com/Kandru/cs2-persistence-manager/releases/).
-2. Move the "PersistenceManager" folder to the `/addons/counterstrikesharp/configs/plugins/` directory.
+2. Move the "PersistenceManager" folder to the `/addons/counterstrikesharp/plugins/` directory.
 3. Restart the server.
 
 Updating is even easier: simply overwrite all plugin files and they will be reloaded automatically. To automate updates please use our [CS2 Update Manager](https://github.com/Kandru/cs2-update-manager/).
